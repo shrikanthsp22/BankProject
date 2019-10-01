@@ -1,0 +1,13 @@
+// in babel loader install use npm install babel-loader@7
+{
+    "presets":[
+       [ "env",{
+            "targets":{
+                "browser":[
+                    "last 5 versions",
+                    "ie >=8"
+                ]
+            }
+        }]
+    ]
+}
